@@ -1,7 +1,7 @@
 python main_test.py \
-    --image_dir data/iu_xray/images/ \
-    --ann_path data/iu_xray/annotation.json \
-    --dataset_name iu_xray \
+    --image_dir data/gynus/images/ \
+    --ann_path data/gynus/annotation.json \
+    --dataset_name gynus \
     --max_seq_length 60 \
     --threshold 3 \
     --epochs 100 \
@@ -16,6 +16,6 @@ python main_test.py \
     --cmm_dim 512 \
     --seed 7580 \
     --beam_size 3 \
-    --save_dir results/iu_xray/ \
+    --save_dir results/gynus/ \
     --log_period 50 \
-    --load results/iu_xray/model_best.pth
+    --load results/gynus//model_bset.pth

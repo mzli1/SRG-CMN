@@ -18,4 +18,4 @@ python main_test.py \
     --beam_size 3 \
     --save_dir results/mimic_cxr/ \
     --log_period 1000 \
-    --load data/model_mimic_cxr.pth
+    --load results/mimic_cxr/model_best.pth
