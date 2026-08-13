@@ -14,9 +14,13 @@ For `IU X-Ray`, you can download the dataset from [here](https://drive.google.co
 For `MIMIC-CXR`, you can download the dataset from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing) and then put the files in `data/mimic_cxr`. You can apply the dataset [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing) with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
 
 For `GynUS`, it is a private gynecological dataset that we created ourselves. The dataset format refers to the previous two datasets. There are a total of 243 instances, and each instance includes images from two orientations and a diagnostic report. Its training and testing configuration is the same as that of IU-Xray. Below are some image examples.
+
 <img width="94" height="94" alt="image" src="https://github.com/user-attachments/assets/87bc69ce-476c-428b-bdf1-2292a9c422de" />
+
 <img width="93" height="93" alt="image" src="https://github.com/user-attachments/assets/6586dd9e-a62e-489c-b114-973d134c4255" />
+
 <img width="90" height="90" alt="image" src="https://github.com/user-attachments/assets/4f30bedd-5b01-4c4a-95d4-2602bc2a9052" />
+
 <img width="89" height="89" alt="image" src="https://github.com/user-attachments/assets/76862286-844f-4949-9f26-1b3bc75131ac" />
 
 NOTE: The `IU X-Ray` dataset is of small size, and thus the variance of the results is large.
